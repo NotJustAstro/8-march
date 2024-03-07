@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+// шрифты!
+
+@font-face {
+    font-family: Raleway;
+    src: url('fonts/Raleway/Raleway-Black.ttf');
+}
+
+@font-face {
+    font-family: Miama;
+    src: url('fonts/Miama Nueva.ttf');
+}
+
+
+// сами стили
+
+.main{
+    // бэкграунд
+
+    background-image: url('imgs/background.png');
+    height: 970px;
+
+    //   флексы!
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-content: stretch;
+    align-items: center;
+
+        // рука с цветами
+
+        .hand-img{
+            width: 500px;
+            height: 600px;
+        }
+
+        // текстики и кнопка
+
+    .text-div{
+        width: 500px;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-content: stretch;
+        align-items: center;
+        text-align: center;
+    
+        .paragraph{
+        font-family: Raleway;
+        text-align: center;
+        }
+    
+        .text-for-js{
+            color: #e08e9c;
+            font-family: Miama;
+            margin-top: 25px;
+            text-align: center;
+        }
+    
+        .you-text{
+            font-family: Raleway;
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .button{
+            background-color: #df8594;
+            color: beige;
+            border-radius: 47px;
+            height: 50px;
+            width: 200px;
+            border: none;
+            font-family: Raleway;
+            margin-top: 30px;
+        }
+        
+    }
+}

@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Raleway;
+  src: url("fonts/Raleway/Raleway-Black.ttf");
+}
+@font-face {
+  font-family: Miama;
+  src: url("fonts/Miama Nueva.ttf");
+}
+.main {
+  background-image: url("imgs/background.png");
+  height: 970px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  align-content: stretch;
+  align-items: center;
+}
+.main .hand-img {
+  width: 500px;
+  height: 600px;
+}
+.main .text-div {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  justify-content: center;
+  align-content: stretch;
+  align-items: center;
+  text-align: center;
+}
+.main .text-div .paragraph {
+  font-family: Raleway;
+  text-align: center;
+}
+.main .text-div .text-for-js {
+  color: #e08e9c;
+  font-family: Miama;
+  margin-top: 25px;
+  text-align: center;
+}
+.main .text-div .you-text {
+  font-family: Raleway;
+  margin-top: 30px;
+  text-align: center;
+}
+.main .text-div .button {
+  background-color: #df8594;
+  color: beige;
+  border-radius: 47px;
+  height: 50px;
+  width: 200px;
+  border: none;
+  font-family: Raleway;
+  margin-top: 30px;
+}/*# sourceMappingURL=style.css.map */
